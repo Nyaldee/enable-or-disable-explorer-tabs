@@ -1,6 +1,6 @@
 @echo off
 chcp 65001>nul
-Title Enable tabs & Color 10
+Title Enable or disable tabs & Color 10
 echo.Activer les onglets sur l'explorateur pour la build 22621.169 de Windows 11 ?
 choice /C:ED /N /M "Enable tabs on explorer for Windows 11 build 22621.169 ? ['E'nable/'D'isable] : "
 md "%Temp%\Bonjour"
